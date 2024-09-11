@@ -7,7 +7,8 @@ let dados = [
         "Ela tem um talento especial para a música.",
         "Sonha em viajar pelo mundo e encontrar inspiração para suas pinturas."
       ],
-      presentes: ["Flores", "Itens artísticos", "Comida vegana"]
+      presentes: ["Flores", "Itens artísticos", "Comida vegana"],
+      link: "https://pt.stardewvalleywiki.com/Abigail"
     },
     {
       titulo: "Maru",
@@ -17,7 +18,8 @@ let dados = [
         "Ela tem uma coleção impressionante de minerais e rochas.",
         "Seu sonho é construir um laboratório subterrâneo."
       ],
-      presentes: ["Minerais", "Itens de qualidade", "Comida saudável"]
+      presentes: ["Minerais", "Itens de qualidade", "Comida saudável"],
+      link: "https://pt.stardewvalleywiki.com/Maru"
     },
     {
       titulo: "Haley",
@@ -27,6 +29,7 @@ let dados = [
         "Sonha em se tornar uma modelo famosa.",
         "Seu animal de estimação é um gato chamado Cat.",
       ],
-      presentes: ["Roupas", "Joias", "Comida gourmet"]
+      presentes: ["Roupas", "Joias", "Comida gourmet"],
+      link: "https://pt.stardewvalleywiki.com/Haley"
     }
   ];
