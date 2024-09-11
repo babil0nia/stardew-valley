@@ -20,8 +20,14 @@
 
     margin-bottom: 1rem;
 }
-  
-
+.button-info{
+    padding: 7px;
+    background-color: #e7cc54;
+    border-radius: 10px;
+}
+header{
+    margin-top: 50px;
+}
 
 /* Estiliza o corpo da página */
 body {
@@ -29,7 +35,7 @@ body {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Centraliza os itens verticalmente */
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
@@ -94,6 +100,8 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
 }
+
+
 
 .handjet-uniquifier{
     font-size: 40px;
@@ -179,9 +187,9 @@ footer {
     bottom: 0px !important; /* Alinha ao fundo da página */
     margin-left: auto !important;
     margin-right: auto !important;
-    position: absolute; /* Posiciona o rodapé */
     color: #C2C8CF;
     font-size: 1rem; /*Tamanho da fonte*/
+
     
 }
 

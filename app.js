@@ -34,7 +34,9 @@ function pesquisar() {
                     <a href="#" target="_blank" class="title-dinamico">${dado.titulo}</a>
                 </h2>
                 <p class="descricao-meta px-2">${dado.descricao}</p>
-                <a href=${dado.link} target="_blank" class="px-2 pb2">Mais informações</a>
+                <div class="px-2 pb2">
+                    <a href=${dado.link} target="_blank" class="button-info">Mais informações</a>
+                </div>
             </div>
         `;
 
