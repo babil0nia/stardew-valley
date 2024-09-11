@@ -82,14 +82,16 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+     /* Largura máxima da caixa de resultados */
     height: 24vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
 }
-
+.width100{
+    width: 100vw;
+}
 .pt-1{
     padding-top: 1rem;
 }
@@ -103,6 +105,7 @@ section button:hover {
 }
 /* Estiliza cada item de resultado */
 .item-resultado {
+    width: 60rem;
     display: flex;
     flex-direction: column;
     background: #f3f3ec; /* Cor de fundo dos itens */
