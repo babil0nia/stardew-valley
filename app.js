@@ -31,7 +31,7 @@ function pesquisar() {
             resultados += `
             <div class="item-resultado animate__animated animate__backInLeft">
                 <h2 class="px-2 pt-1 ">
-                    <a href="#" target="_blank">${dado.titulo}</a>
+                    <a href="#" target="_blank" class="title-dinamico">${dado.titulo}</a>
                 </h2>
                 <p class="descricao-meta px-2">${dado.descricao}</p>
                 <a href=${dado.link} target="_blank" class="px-2 pb2">Mais informações</a>
