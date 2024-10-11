@@ -10,5 +10,3 @@ Pesquisar pelos nomes: Abigail, Maru e Haley.
 ## Exemplo ao vivo
 
 [Live demo](https://stardew-valley-ish2.vercel.app/)
-
-teste
